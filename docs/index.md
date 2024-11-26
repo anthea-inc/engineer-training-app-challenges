@@ -3,23 +3,24 @@
 layout: home
 
 hero:
-  name: "My Awesome Project"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "エンジニア研修課題"
+  text: "Webアプリケーションを作成しよう！"
+  tagline: "Webアプリケーション開発の第一歩"
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 始め方ガイド
+      link: /guide/getting-started
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 課題の詳細
+      link: /html/issue1
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: HTML
+    details: HTMLを基礎から学び、ページ構造を作成しよう
+    link: /html/issue1
+  - title: CSS
+    details: CSSでデザインを整え、スタイリングを学ぼう
+  - title: JavaScript
+    details: JavaScriptを使って動的な機能を追加しよう
 ---
 
