@@ -49,6 +49,38 @@ export default defineConfig({
           { text: 'ビデオと音声', link: '/html/issue26' },
         ],
         collapsed: true
+      },
+      {
+        text: 'CSS',
+        items: [
+          { text: 'CSSの基礎', link: '/css/intro' },
+          { text: 'Background', link: '/css/background' },
+          { text: 'Borders', link: '/css/border' },
+          { text: 'Margins', link: '/css/margin' },
+          { text: 'Padding', link: '/css/padding' },
+          { text: 'Height/Width', link: '/css/dimension' },
+          { text: 'Box Model', link: '/css/boxmodel' },
+          { text: 'Outline', link: '/css/outline' },
+          { text: 'Text', link: '/css/text' },
+          { text: 'Fonts', link: '/css/font' },
+          { text: 'Icons', link: '/css/icons' },
+          { text: 'Links', link: '/css/link' },
+          { text: 'Lists', link: '/css/list' },
+          { text: 'Tables', link: '/css/table' },
+          { text: 'Display', link: '/css/display-visibility' },
+          { text: 'Max-width', link: '/css/max-width' },
+          { text: 'Position', link: '/css/positioning' },
+          { text: 'Z-index', link: '/css/z-index' },
+          { text: 'Overflow', link: '/css/overflow' },
+          { text: 'Float', link: '/css/float' },
+          { text: 'Inline-block', link: '/css/inline-block' },
+          { text: 'Align', link: '/css/align' },
+          { text: 'Combinators', link: '/css/combinators' },
+          { text: 'Pseudo-classes', link: '/css/pseudo-classes' },
+          { text: 'Pseudo-elements', link: '/css/pseudo-elements' },
+          { text: 'Opacity', link: '/css/image-transparency' },
+        ],
+        collapsed: true
       }
     ],
 
