@@ -20,6 +20,7 @@ features:
     link: /html/issue1
   - title: CSS
     details: CSSでデザインを整え、スタイリングを学ぼう
+    link: /css/issue1
   - title: JavaScript
     details: JavaScriptを使って動的な機能を追加しよう
 ---
