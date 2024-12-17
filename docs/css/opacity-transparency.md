@@ -8,19 +8,6 @@
 
 ### 課題１
 
-- height
-- width
-- max-height
-- max-width
-- min-height
-- min-width
-
-### 課題2
-
-- auto
-- length
-- %
-- initial
-- inherit
+- opacity
 
 ## 実践課題

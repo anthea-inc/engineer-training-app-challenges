@@ -8,19 +8,12 @@
 
 ### 課題１
 
-- height
-- width
-- max-height
-- max-width
-- min-height
-- min-width
-
-### 課題2
-
-- auto
-- length
-- %
-- initial
-- inherit
+- px
+- em
+- rem
+- vw/vh
+- dvw/dvh
+- lvw/lvh
+- svw/svh
 
 ## 実践課題

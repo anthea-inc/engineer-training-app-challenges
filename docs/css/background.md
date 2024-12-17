@@ -8,31 +8,16 @@
 
 ### 課題１
 
-- CSSの役割とその基本的な目的について説明してください。
-- CSSを使用する理由
-- CSSが解決する問題
+- background-color
+- background-image
+- background-repeat
+  - repeat-x
+  - repeat
+  - space
+  - round
+  - no-repeat
+- background-position
+- background-attachment
+- background
 
-### 課題2
-
-- CSS構文
-
-### 課題３
-
-- CSSセレクター
-- element Selector
-- id Selector
-- class Selector
-- Universal Selector
-- Grouping Selector
-
-### 課題4
-
-- 外部CSS
-- 内部CSS
-- インライン CSS
-- 複数のスタイルシート
-- カスケード順序
-
-### 課題5
-
-- CSSコメント
+## 実践課題

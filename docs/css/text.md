@@ -8,31 +8,38 @@
 
 ### 課題１
 
-- CSSの役割とその基本的な目的について説明してください。
-- CSSを使用する理由
-- CSSが解決する問題
+- color
 
 ### 課題2
 
-- CSS構文
+- text-align
+- text-align-last
+- direction
+- unicode-bidi
+- vertical-align
 
-### 課題３
+### 課題3
 
-- CSSセレクター
-- element Selector
-- id Selector
-- class Selector
-- Universal Selector
-- Grouping Selector
+- text-decoration-line
+- text-decoration-color
+- text-decoration-style
+- text-decoration-thickness
+- text-decoration
 
 ### 課題4
 
-- 外部CSS
-- 内部CSS
-- インライン CSS
-- 複数のスタイルシート
-- カスケード順序
+- text-transform
 
 ### 課題5
 
-- CSSコメント
+- text-indent
+- letter-spacing
+- line-height
+- word-spacing
+- white-space
+
+### 課題6
+
+- text-shadow
+
+## 実践課題

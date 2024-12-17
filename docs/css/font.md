@@ -8,31 +8,18 @@
 
 ### 課題１
 
-- CSSの役割とその基本的な目的について説明してください。
-- CSSを使用する理由
-- CSSが解決する問題
+- font-family
 
 ### 課題2
 
-- CSS構文
+Web Safe Fonts
+Fallback Fonts
 
-### 課題３
+### 課題3
 
-- CSSセレクター
-- element Selector
-- id Selector
-- class Selector
-- Universal Selector
-- Grouping Selector
+- font-style
+- font-weight
+- font-variant
+- font-size
 
-### 課題4
-
-- 外部CSS
-- 内部CSS
-- インライン CSS
-- 複数のスタイルシート
-- カスケード順序
-
-### 課題5
-
-- CSSコメント
+## 実践課題

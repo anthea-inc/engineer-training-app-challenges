@@ -8,31 +8,14 @@
 
 ### 課題１
 
-- CSSの役割とその基本的な目的について説明してください。
-- CSSを使用する理由
-- CSSが解決する問題
+- margin
+- margin-top
+- margin-right
+- margin-bottom
+- margin-left
 
 ### 課題2
 
-- CSS構文
+Margin Collapse
 
-### 課題３
-
-- CSSセレクター
-- element Selector
-- id Selector
-- class Selector
-- Universal Selector
-- Grouping Selector
-
-### 課題4
-
-- 外部CSS
-- 内部CSS
-- インライン CSS
-- 複数のスタイルシート
-- カスケード順序
-
-### 課題5
-
-- CSSコメント
+## 実践課題
