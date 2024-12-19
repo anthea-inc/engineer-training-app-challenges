@@ -1,4 +1,4 @@
-# ブラウザに自分のページを表示してみよう
+# ボーダーをデザインする
 
 ## 学ぶ理由
 
@@ -8,18 +8,20 @@
 
 ### 課題１
 
-以下のCSSプロパティについて調査し、各プロパティの役割と使用例を説明してください。
+以下のCSSプロパティについて調査し、各プロパティの役割を説明してください。
 
-- border-style
-  - dotted
-  - dashed
-  - solid
-  - double
-  - none
-  - hidden
-- border-width
-- border-color
-- border
-- border-radius
+- `border-style`
+  - `dotted`
+  - `dashed`
+  - `solid`
+  - `double`
+  - `none`
+  - `hidden`
+- `border-width`
+- `border-color`
+- `border`
+- `border-radius`
 
 ## 実践課題
+
+上記で学習したプロパティを全て使用したHTMLとCSSファイルを作成してください。

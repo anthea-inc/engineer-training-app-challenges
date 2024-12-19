@@ -1,4 +1,4 @@
-# ブラウザに自分のページを表示してみよう
+# パディングを学ぼう
 
 ## 学ぶ理由
 
@@ -8,12 +8,14 @@
 
 ### 課題１
 
-以下のCSSプロパティについて調査し、各プロパティの役割と使用例を説明してください。
+以下のCSSプロパティについて調査し、各プロパティの役割を説明してください。
 
-- padding
-- padding-top
-- padding-right
-- padding-bottom
-- padding-left
+- `padding`
+- `padding-top`
+- `padding-right`
+- `padding-bottom`
+- `padding-left`
 
 ## 実践課題
+
+上記で学習したプロパティを全て使用したHTMLとCSSファイルを作成してください。
