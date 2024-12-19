@@ -8,21 +8,8 @@
 
 ### 課題１
 
-Pseudo-classes?
-
-CSSの擬似クラスと擬似要素の違いを説明し、具体的な使用例を提示してください。
-
-
-### 課題2
-
-- a:link
-- a:visited
-- a:hover
-- a:active
-
-### 課題3
-
-- :first-child
-- :last-child
+- calc()
+- max()
+- min()
 
 ## 実践課題

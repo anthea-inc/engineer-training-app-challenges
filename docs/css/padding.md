@@ -8,6 +8,10 @@
 
 ### 課題１
 
-- Box Model
+- padding
+- padding-top
+- padding-right
+- padding-bottom
+- padding-left
 
 ## 実践課題
