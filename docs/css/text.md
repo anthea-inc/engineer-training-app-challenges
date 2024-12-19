@@ -8,9 +8,13 @@
 
 ### 課題１
 
+以下のCSSプロパティについて調査し、各プロパティの役割と使用例を説明してください。
+
 - color
 
 ### 課題2
+
+以下のCSSプロパティについて調査し、各プロパティの役割と使用例を説明してください。
 
 - text-align
 - text-align-last
@@ -20,6 +24,8 @@
 
 ### 課題3
 
+以下のCSSプロパティについて調査し、各プロパティの役割と使用例を説明してください。
+
 - text-decoration-line
 - text-decoration-color
 - text-decoration-style
@@ -28,9 +34,13 @@
 
 ### 課題4
 
+以下のCSSプロパティについて調査し、各プロパティの役割と使用例を説明してください。
+
 - text-transform
 
 ### 課題5
+
+以下のCSSプロパティについて調査し、各プロパティの役割と使用例を説明してください。
 
 - text-indent
 - letter-spacing
@@ -39,6 +49,8 @@
 - white-space
 
 ### 課題6
+
+以下のCSSプロパティについて調査し、各プロパティの役割と使用例を説明してください。
 
 - text-shadow
 

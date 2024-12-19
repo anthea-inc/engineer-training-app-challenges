@@ -1,4 +1,4 @@
-# ブラウザに自分のページを表示してみよう
+# 背景をデザインする
 
 ## 学ぶ理由
 
@@ -8,13 +8,13 @@
 
 ### 課題１
 
+以下のCSSプロパティについて調査し、各プロパティの役割と使用例を説明してください。
+
 - background-color
 - background-image
 - background-repeat
   - repeat-x
   - repeat
-  - space
-  - round
   - no-repeat
 - background-position
 - background-attachment

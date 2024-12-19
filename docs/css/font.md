@@ -8,6 +8,8 @@
 
 ### 課題１
 
+以下のCSSプロパティについて調査し、各プロパティの役割と使用例を説明してください。
+
 - font-family
 
 ### 課題2
@@ -16,6 +18,8 @@ Web Safe Fonts
 Fallback Fonts
 
 ### 課題3
+
+以下のCSSプロパティについて調査し、各プロパティの役割と使用例を説明してください。
 
 - font-style
 - font-weight
