@@ -6,23 +6,54 @@
 
 ## 知識課題
 
-### 課題１
+### 知識課題１
 
-以下のCSSプロパティについて調査し、各プロパティの役割と使用例を説明してください。
+以下のCSSプロパティについて調査し、それぞれの役割を説明してください。
 
-- height
-- width
-- max-height
-- max-width
-- min-height
-- min-width
+- `height`
+- `width`
+- `max-height`
+- `max-width`
+- `min-height`
+- `min-width`
 
-### 課題2
+### 知識課題2
 
-- auto
-- length
-- %
-- initial
-- inherit
+以下のCSSプロパティの値について調査し、それぞれの役割と使用方法を説明してください。
+
+- `auto`
+- `length`
+- `%`
+- `initial`
+- `inherit`
+
+### 知識課題3
+
+以下のCSS単位について、それぞれの特徴と使用場面を調査してください。
+
+- `px`
+- `em`
+- `rem`
+- `vw/vh`
+- `dvw/dvh`
+- `lvw/lvh`
+- `svw/svh`
 
 ## 実践課題
+
+### 実践課題1
+
+以下の要件を満たすHTMLとCSSファイルを作成してください。
+
+heightとwidthプロパティを使用して高さと幅を設定してください。
+
+- 目標：固定値による要素サイズの制御方法を理解する
+- 実装：pxとremを使用した要素サイズの指定
+
+### 実践課題2
+
+### 実践課題3
+
+
+
+

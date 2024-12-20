@@ -74,7 +74,6 @@ export default defineConfig({
           { text: 'Pseudo-classes', link: '/css/pseudo-classes' },
           { text: 'Pseudo-elements', link: '/css/pseudo-elements' },
           { text: 'Opacity', link: '/css/opacity-transparency' },
-          { text: 'Units', link: '/css/units' },
           { text: 'important', link: '/css/important' },
           { text: 'Functions', link: '/css/functions' },
         ],
