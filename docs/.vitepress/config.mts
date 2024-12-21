@@ -72,7 +72,7 @@ export default defineConfig({
           { text: 'オーバーフローの理解', link: '/css/overflow' },
           { text: '結合子の理解', link: '/css/combinators' },
           { text: '擬似クラスの理解', link: '/css/pseudo-classes' },
-          { text: 'Pseudo-elements', link: '/css/pseudo-elements' },
+          { text: '擬似要素の理解', link: '/css/pseudo-elements' },
           { text: 'Opacity', link: '/css/opacity-transparency' },
           { text: 'important', link: '/css/important' },
           { text: 'Functions', link: '/css/functions' },
