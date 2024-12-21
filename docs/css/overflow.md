@@ -1,4 +1,4 @@
-# ブラウザに自分のページを表示してみよう
+# オーバーフローの理解
 
 ## 学ぶ理由
 
@@ -10,10 +10,14 @@
 
 以下のCSSプロパティについて調査し、それぞれの役割を説明してください。
 
-- overflow
-  - visible
-  - hidden
-  - scroll
-  - auto
+- `overflow`
+  - `visible`
+  - `hidden`
+  - `scroll`
+  - `auto`
+- `overflow-x`
+- `overflow-y`
 
 ## 実践課題
+
+上記で学習したプロパティを全て使用したHTMLとCSSファイルを作成してください。
