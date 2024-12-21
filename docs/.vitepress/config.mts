@@ -63,7 +63,7 @@ export default defineConfig({
           { text: 'ボックスモデルの理解', link: '/css/boxmodel' },
           { text: 'アウトラインを学ぼう', link: '/css/outline' },
           { text: 'テキストの詳細', link: '/css/text' },
-          { text: 'Fonts', link: '/css/font' },
+          { text: 'フォントの理解と実践', link: '/css/font' },
           { text: 'Lists', link: '/css/list' },
           { text: 'Tables', link: '/css/table' },
           { text: 'Display', link: '/css/display-visibility' },
