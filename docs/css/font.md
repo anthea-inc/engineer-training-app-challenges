@@ -10,20 +10,21 @@
 
 以下のCSSプロパティについて調査し、それぞれの役割を説明してください。
 
-- font-family
+- `font-family`
 
 ### 課題2
 
-Web Safe Fonts
+Genericフォントファミリー
+ウェブセーフフォント
 Fallback Fonts
 
 ### 課題3
 
 以下のCSSプロパティについて調査し、それぞれの役割を説明してください。
 
-- font-style
-- font-weight
-- font-variant
-- font-size
+- `font-style`
+- `font-weight`
+- `font-variant`
+- `font-size`
 
 ## 実践課題
