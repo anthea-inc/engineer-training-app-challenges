@@ -1,4 +1,4 @@
-# ブラウザに自分のページを表示してみよう
+# 表示と可視性の理解
 
 ## 学ぶ理由
 
@@ -10,11 +10,30 @@
 
 以下のCSSプロパティについて調査し、それぞれの役割を説明してください。
 
-- display
-- visibility
+- `display`
+  - `block`
+  - `inline`
+  - `inline-block`
+  - `none`
+  - `contents`
+  - `initial`
+  - `inherit`
+- `visibility`
+  - `visible`
+  - `hidden`
 
 ### 課題2
 
-display: inline-block
+`display: inline-block`の特徴を以下の観点から説明してください。
+
+- `block`との違い
+- `inline`との違い
+- 具体的な使用シーン
+
+### 課題3
+
+`display: none`と`visibility: hidden`の違いを説明してください。
 
 ## 実践課題
+
+上記で学習したプロパティを全て使用したHTMLとCSSファイルを作成してください。

@@ -1,4 +1,4 @@
-# ブラウザに自分のページを表示してみよう
+# リストスタイルを学ぼう
 
 ## 学ぶ理由
 
@@ -10,9 +10,11 @@
 
 以下のCSSプロパティについて調査し、それぞれの役割を説明してください。
 
-- list-style-type
-- list-style-image
-- list-style-position
-- list-style
+- `list-style-type`
+- `list-style-image`
+- `list-style-position`
+- `list-style`
 
 ## 実践課題
+
+上記で学習したプロパティを全て使用したHTMLとCSSファイルを作成してください。
