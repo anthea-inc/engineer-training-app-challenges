@@ -74,9 +74,9 @@ export default defineConfig({
           { text: '擬似クラスの理解', link: '/css/pseudo-classes' },
           { text: '擬似要素の理解', link: '/css/pseudo-elements' },
           { text: '透明度の理解', link: '/css/opacity-transparency' },
-          { text: '詳細度', link: '/css/specificity' },
-          { text: 'important', link: '/css/important' },
-          { text: 'Functions', link: '/css/functions' },
+          { text: '詳細度の理解', link: '/css/specificity' },
+          { text: '!importantの理解', link: '/css/important' },
+          { text: 'CSS値関数の理解', link: '/css/functions' },
         ],
         collapsed: true
       },
