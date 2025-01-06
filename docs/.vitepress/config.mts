@@ -87,7 +87,10 @@ export default defineConfig({
       {
         text: 'JavaScript',
         items: [
+          { text: 'Node.jsのセットアップ', link: '/java-script/setup' },
           { text: 'JavaScript入門', link: '/java-script/intro' },
+          { text: '変数', link: '/java-script/variables' },
+          { text: 'データ型', link: '/java-script/types' },
         ],
         collapsed: true
       },
