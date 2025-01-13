@@ -8,90 +8,51 @@
 
 ### 課題１
 
-CSS Flexbox とは何ですか?
+フレックスボックスとは何かについて調査し、以下の点を含めて説明してください。
 
-a Flex Container - the parent (container) `<div>` element
-Flex Items - the items inside the container `<div>`
+- フレックスコンテナー
+- フレックスアイテム
 
 ### 課題2
 
-以下のCSSプロパティについて調査し、それぞれの役割を説明してください。
+以下のフレックスコンテナーのプロパティについて調査し、それぞれの役割を説明してください。
 
 - `flex-direction`
+  - `row`
+  - `column`
+  - `row-reverse`
+  - `column-reverse`
 - `flex-wrap`
+  - `nowrap`
+  - `wrap`
+  - `wrap-reverse`
 - `flex-flow`
 - `justify-content`
+  - `center`
+  - `flex-start`
+  - `flex-end`
+  - `space-around`
+  - `space-between`
+  - `space-evenly`
 - `align-items`
+  - `center`
+  - `flex-start`
+  - `flex-end`
+  - `stretch`
+  - `baseline`
+  - `normal`
 - `align-content`
+  - `center`
+  - `stretch`
+  - `flex-start`
+  - `flex-end`
+  - `space-around`
+  - `space-between`
+  - `space-evenly`
 
 ### 課題3
 
-このflex-directionプロパティは、フレックス コンテナー内のフレックス アイテムの表示方向を指定します。
-
-プロパティflex-directionには次のいずれかの値を指定できます。
-
-- `row`
-- `column`
-- `row-reverse`
-- `column-reverse`
-
-### 課題4
-
-このflex-wrapプロパティは、1 つのフレックス ラインに十分なスペースがない場合に、フレックス アイテムを折り返すかどうかを指定します。
-
-プロパティflex-wrapには次のいずれかの値を指定できます。
-
-- `nowrap`
-- `wrap`
-- `wrap-reverse`
-
-### 課題5
-
-プロパティは、 プロパティと プロパティのflex-flow両方を設定するためのショートカット プロパティです。 flex-directionflex-wrap
-
-### 課題6
-
-このjustify-contentプロパティは、フレックス アイテムがメイン軸 (水平方向) 上の使用可能なスペースをすべて使用していない場合に、フレックス アイテムを揃えるために使用されます。
-
-プロパティjustify-contentには次のいずれかの値を指定できます。
-
-- `center`
-- `flex-start`
-- `flex-end`
-- `space-around`
-- `space-between`
-- `space-evenly`
-
-### 課題7
-
-このalign-itemsプロパティは、フレックス アイテムが交差軸 (垂直方向) 上の使用可能なスペースをすべて使用していない場合に、フレックス アイテムを揃えるために使用されます。
-
-プロパティalign-itemsには次のいずれかの値を指定できます。
-
-- `center`
-- `flex-start`
-- `flex-end`
-- `stretch`
-- `baseline`
-- `normal`
-
-### 課題8
-
-このalign-contentプロパティは、フレックス ラインを揃えるために使用されます。
-
-このalign-contentプロパティは に似ていますalign-itemsが、フレックス アイテムを揃える代わりに、フレックス ラインを揃えます。
-
-プロパティalign-contentには次のいずれかの値を指定できます。
-
-- `center`
-- `stretch`
-- `flex-start`
-- `flex-end`
-- `space-around`
-- `space-between`
-- `space-evenly`
-
-### 課題9
+以下のフレックスアイテムのプロパティについて調査し、それぞれの役割を説明してください。
 
 - `order`
 - `flex-grow`
@@ -102,4 +63,4 @@ Flex Items - the items inside the container `<div>`
 
 ## 実践課題
 
-[Flexbox Froggy](https://flexboxfroggy.com/)をクリアしてください。
+[Flexbox Froggy](https://flexboxfroggy.com/)をプレイして、すべてのレベルをクリアしてください。ゲームを通じて、フレックスボックスの使い方を実践的に学びましょう。
