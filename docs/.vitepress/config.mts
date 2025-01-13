@@ -80,7 +80,7 @@ export default defineConfig({
           { text: 'CSS変数の理解', link: '/css/variables' },
           { text: 'box-sizingプロパティの詳細と実践', link: '/css/box-sizing' },
           { text: 'フレックスボックスの理解', link: '/css/flexbox' },
-          { text: 'グリッド', link: '/css/grid' },
+          { text: 'グリッドレイアウトの理解', link: '/css/grid' },
         ],
         collapsed: true
       },

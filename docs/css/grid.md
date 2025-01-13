@@ -1,4 +1,4 @@
-# 変数
+# グリッドレイアウトの理解
 
 ## 学ぶ理由
 
@@ -8,74 +8,40 @@
 
 ### 課題１
 
-CSS グリッドレイアウト
-グリッド レイアウト モジュールは、行と列を持つグリッドベースのレイアウト システムを提供します。
+グリッドレイアウトとは何かについて調査し、以下の点を含めて説明してください。
 
-グリッド レイアウト モジュールを使用すると、開発者は複雑な Web レイアウトを簡単に作成できます。
-
-グリッド レイアウト モジュールを使用すると、フロートや配置を使用せずに、レスポンシブなレイアウト構造を簡単に設計できます。
-
-CSS グリッド プロパティは、すべての最新ブラウザでサポートされています。
+- グリッドコンテナー
+- グリッドアイテム
 
 ### 課題2
 
-グリッド コンテナーとグリッド アイテム
+以下のグリッドコンテナーのプロパティについて調査し、それぞれの役割を説明してください。
+
+- `grid-template-columns`
+- `grid-template-rows`
+- `grid-template-areas`
+- `justify-content`
+- `align-content`
+- `place-content`
+- `column-gap`
+- `row-gap`
+- `gap`
 
 ### 課題3
 
-グリッド列
-グリッド行
-グリッドギャップ
+以下のグリッドアイテムのプロパティについて調査し、それぞれの役割を説明してください。
 
-- column-gap
-- row-gap
-- gap
-
-### 課題4
-
-グリッド線
-
- grid-column-start: 1;
-  grid-column-end: 3;
-
-### 課題5
-
-  grid-template-columns
-
-### 課題6
-
-grid-template-rows
-
-### 課題7
-
-justify-content
-
-### 課題8
-
-align-content
-
-### 課題9
-
-grid-column
-
-### 課題10
-
-grid-row
-
-### 課題11
-
-grid-area
-grid-template-areas
-
-### 課題12
-
-justify-self
-align-self
+- `grid-column`
+- `grid-column-end`
+- `grid-column-start`
+- `grid-row`
+- `grid-row-end`
+- `grid-row-start`
+- `grid-area`
+- `justify-self`
+- `align-self`
+- `place-self`
 
 ## 実践課題
 
-3つの重なり合うボックスを作成し、`position`と`z-index`を使用して以下のレイアウトを実現してください。
-
-### 実装要件
-
-[Grid Garden](https://cssgridgarden.com/)をクリアしてください。
+[Grid Garden](https://cssgridgarden.com/)をプレイして、すべてのレベルをクリアしてください。ゲームを通じて、フレックスボックスの使い方を実践的に学びましょう。
