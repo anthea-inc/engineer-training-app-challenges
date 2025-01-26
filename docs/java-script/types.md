@@ -72,3 +72,4 @@
 
 - [データ型とリテラル](https://jsprimer.net/basic/data-type/)
 - [データ型](https://ja.javascript.info/types)
+- [Literal (リテラル)](https://developer.mozilla.org/ja/docs/Glossary/Literal)

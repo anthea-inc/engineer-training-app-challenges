@@ -23,34 +23,34 @@
 
 ``` js
 let a = 0;
-console.log(typeof a, a)
+console.log(typeof a, a);
 
-let b = '1' + a 
-console.log(typeof b, b)
+let b = '1' + a;
+console.log(typeof b, b);
 
-let c = 15 - b
-console.log(typeof c, c)
+let c = 15 - b;
+console.log(typeof c, c);
 
-let d = c - null
-console.log(typeof d, d)
+let d = c - null;
+console.log(typeof d, d);
 
-let e = c - true
-console.log(typeof e, e)
+let e = c - true;
+console.log(typeof e, e);
 ```
 
 ### 実践課題2
 
 以下の変数を使い、明示的な型変換を行ってください。
 
-- 変数 x を明示的にNumber型に変換し、結果を出力してください。
-- Number()およびparseInt()の両方を使用して変換してください。
+- 変数`x`を明示的に`Number`型に変換し、結果を出力してください。
+- `Number()`および`parseInt()`の両方を使用して変換してください。
 
    ``` js
     let x = "3.14";
    ```
 
-- 変数 x を明示的にString型に変換し、結果を出力してください。
-- String()およびtoString()の両方を使用して変換してください。
+- 変数`x`を明示的に`String`型に変換し、結果を出力してください。
+- `String()`および`toString()`の両方を使用して変換してください。
 
    ``` js
     let x = 123;

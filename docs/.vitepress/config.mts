@@ -92,6 +92,12 @@ export default defineConfig({
           { text: '変数の基礎', link: '/java-script/variables' },
           { text: 'データ型の理解', link: '/java-script/types' },
           { text: '型変換の理解', link: '/java-script/type-conversions' },
+          { text: '演算子の理解', link: '/java-script/operators' },
+          { text: '等価比較', link: '/java-script/comparison' },
+          { text: '条件分岐', link: '/java-script/ifelse' },
+          { text: '論理演算子', link: '/java-script/logical-operators' },
+          { text: 'ループと反復処理', link: '/java-script/loop' },
+          { text: 'オブジェクトの理解', link: '/java-script/object' },
         ],
         collapsed: true
       },
