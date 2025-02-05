@@ -95,9 +95,9 @@ export default defineConfig({
           { text: '演算子の理解', link: '/java-script/operators' },
           { text: '比較演算子と論理演算子の理解', link: '/java-script/comparison' },
           { text: '条件分岐の理解', link: '/java-script/ifelse' },
-          { text: '論理演算子', link: '/java-script/logical-operators' },
           { text: 'ループと反復処理', link: '/java-script/loop' },
           { text: 'オブジェクトの理解', link: '/java-script/object' },
+          { text: '問題集に挑戦しよう', link: '/java-script/challenge' },
         ],
         collapsed: true
       },
