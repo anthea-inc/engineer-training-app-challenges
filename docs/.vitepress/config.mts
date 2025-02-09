@@ -97,7 +97,7 @@ export default defineConfig({
           { text: '条件分岐の理解', link: '/java-script/ifelse' },
           { text: 'ループと反復処理', link: '/java-script/loop' },
           { text: 'オブジェクト操作', link: '/java-script/object' },
-          { text: '配列', link: '/java-script/array' },
+          { text: '配列操作の理解', link: '/java-script/array' },
           { text: '文字列', link: '/java-script/string' },
           { text: '関数', link: '/java-script/function' },
           { text: 'スコープ', link: '/java-script/scope' },
