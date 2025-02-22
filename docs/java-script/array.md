@@ -54,12 +54,6 @@ const employees = [
   { id: 3, name: "鈴木一郎", age: 28, department: "開発", projects: [] },
 ];
 
-// チームごとの社員IDを管理する2次元配列
-const teams = [
-  [1, 3], // チームA：田中太郎と鈴木一郎
-  [2]     // チームB：佐藤花子
-];
-
 // 追加する社員の指定
 
 // push により追加する社員
