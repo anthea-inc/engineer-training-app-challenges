@@ -102,7 +102,6 @@ export default defineConfig({
           { text: '関数の理解と活用', link: '/java-script/function' },
           { text: 'スコープとクロージャの理解', link: '/java-script/scope' },
           { text: '問題集に挑戦しよう', link: '/java-script/challenge' },
-          { text: 'this', link: '/java-script/this' },
           { text: 'クラス', link: '/java-script/class' },
           { text: '例外処理', link: '/java-script/try-catch' },
           { text: '非同期処理', link: '/java-script/async' },

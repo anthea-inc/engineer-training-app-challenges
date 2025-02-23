@@ -1,4 +1,4 @@
-# クラス
+# JSON
 
 ## 学ぶ理由
 
@@ -6,9 +6,20 @@
 
 ## 知識課題
 
+## 知識課題1
+
+- JSONの定義および基本的な特徴について説明してください。
+- JSONが実際のシステムでどのように利用されているか、具体例を交えて解説してください。。
+
+## 知識課題2
+
+- 以下のメソッドの役割について説明してください。
+  - `JSON.parse`
+  - `JSON.stringify`
+
 ## 実践課題
 
 ## 参考資料
 
-- [演算子](https://jsprimer.net/basic/operator/)
-- [比較](https://ja.javascript.info/comparison)
+- [JSON](https://jsprimer.net/basic/json/)
+- [JSON メソッド, toJSON](https://ja.javascript.info/json)
