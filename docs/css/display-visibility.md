@@ -15,7 +15,6 @@
   - `inline`
   - `inline-block`
   - `none`
-  - `contents`
   - `initial`
   - `inherit`
 - `visibility`
