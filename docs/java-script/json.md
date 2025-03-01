@@ -19,6 +19,32 @@
 
 ## 実践課題
 
+### 実践課題1
+
+以下のJSON文字列を対象に、手順に従って処理を行ってください。
+
+``` json
+{"title": "JSON入門", "level": "初級", "completed": false}
+```
+
+1. `JSON.parse`を使用して、上記の`JSON`をJavaScriptの`オブジェクト`に変換する。
+1. オブジェクトの`completed`プロパティを`true`に変更する。
+1. 新たに`reviewed`というプロパティを追加し、値を`2025-03-01`（例：任意の日付）に設定する。
+1. 変更後のオブジェクトを`JSON.stringify`を使用して`JSON`に再変換し、コンソールに出力する。
+
+### 実践課題2
+
+以下のJSON文字列を対象に、手順に従って処理を行ってください。
+
+``` json
+{"name": "Taro", "age": 25, "email": "taro@example.com"}
+```
+
+1. `JSON.parse`を使って、`JSON`をJavaScriptの`オブジェクト`に変換する。
+1. 変換後、ユーザの`age`プロパティの値を`5`増加させる。
+1. オブジェクトに`address`プロパティを追加し、例として`Tokyo`を設定する。
+1. 更新されたオブジェクトを`JSON.stringify`で再度`JSON`に変換し、コンソールに出力する。
+
 ## 参考資料
 
 - [JSON](https://jsprimer.net/basic/json/)
