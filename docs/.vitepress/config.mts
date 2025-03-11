@@ -20,6 +20,13 @@ export default defineConfig({
         collapsed: false
       },
       {
+        text: 'Git',
+        items: [
+          { text: 'はじめに', link: '/guide/getting-started' },
+        ],
+        collapsed: true
+      },
+      {
         text: 'HTML',
         items: [
           { text: 'HTMLを表示してみよう', link: '/html/intro' },
@@ -114,6 +121,13 @@ export default defineConfig({
         text: 'React',
         items: [
           { text: 'React入門', link: '/react/intro' },
+        ],
+        collapsed: true
+      },
+      {
+        text: 'Docker',
+        items: [
+          { text: 'CSS入門', link: '/css/intro' },
         ],
         collapsed: true
       },
