@@ -22,7 +22,7 @@ export default defineConfig({
       {
         text: 'Git',
         items: [
-          { text: 'はじめに', link: '/guide/getting-started' },
+          { text: 'Git', link: '/git/intro' },
         ],
         collapsed: true
       },
@@ -127,7 +127,7 @@ export default defineConfig({
       {
         text: 'Docker',
         items: [
-          { text: 'CSS入門', link: '/css/intro' },
+          { text: 'Docker', link: '/docker/intro' },
         ],
         collapsed: true
       },
