@@ -106,7 +106,7 @@ export default defineConfig({
           { text: '例外処理', link: '/java-script/try-catch' },
           { text: '非同期処理', link: '/java-script/async' },
           { text: 'MapとSet', link: '/java-script/map-set' },
-          { text: 'JSON', link: '/java-script/json' },
+          { text: 'JSON操作の基礎', link: '/java-script/json' },
         ],
         collapsed: true
       },

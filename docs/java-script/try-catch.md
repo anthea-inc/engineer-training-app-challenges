@@ -10,5 +10,5 @@
 
 ## 参考資料
 
-- [演算子](https://jsprimer.net/basic/operator/)
-- [比較](https://ja.javascript.info/comparison)
+- [例外処理](https://jsprimer.net/basic/error-try-catch/)
+- [エラーハンドリング, "try..catch"](https://ja.javascript.info/try-catch)

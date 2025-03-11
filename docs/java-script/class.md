@@ -34,5 +34,8 @@
 
 ## 参考資料
 
-- [演算子](https://jsprimer.net/basic/operator/)
-- [比較](https://ja.javascript.info/comparison)
+- [クラス](https://jsprimer.net/basic/class)
+- [クラス(Class) 基本構文](https://ja.javascript.info/class)
+- [クラスの継承](https://ja.javascript.info/class-inheritance)
+- [静的(static)プロパティとメソッド](https://ja.javascript.info/static-properties-methods)
+- [Private / protected プロパティとメソッド](https://ja.javascript.info/private-protected-properties-methods)
