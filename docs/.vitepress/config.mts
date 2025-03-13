@@ -17,7 +17,7 @@ export default defineConfig({
         items: [
           { text: 'はじめに', link: '/guide/getting-started' },
         ],
-        collapsed: false
+        collapsed: true
       },
       {
         text: 'Git',
@@ -110,7 +110,7 @@ export default defineConfig({
           { text: 'スコープとクロージャの理解', link: '/java-script/scope' },
           { text: '問題集に挑戦しよう', link: '/java-script/challenge' },
           { text: 'クラスの基礎', link: '/java-script/class' },
-          { text: '例外処理', link: '/java-script/try-catch' },
+          { text: '例外処理の基本', link: '/java-script/try-catch' },
           { text: '非同期処理', link: '/java-script/async' },
           { text: 'MapとSet', link: '/java-script/map-set' },
           { text: 'JSON操作の基礎', link: '/java-script/json' },
