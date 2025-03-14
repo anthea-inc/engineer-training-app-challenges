@@ -111,7 +111,7 @@ export default defineConfig({
           { text: '問題集に挑戦しよう', link: '/java-script/challenge' },
           { text: 'クラスの基礎', link: '/java-script/class' },
           { text: '例外処理の基本', link: '/java-script/try-catch' },
-          { text: '非同期処理', link: '/java-script/async' },
+          { text: '非同期処理入門', link: '/java-script/async' },
           { text: 'MapとSet', link: '/java-script/map-set' },
           { text: 'JSON操作の基礎', link: '/java-script/json' },
         ],
