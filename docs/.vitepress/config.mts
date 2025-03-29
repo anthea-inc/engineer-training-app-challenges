@@ -121,6 +121,14 @@ export default defineConfig({
         text: 'React',
         items: [
           { text: 'React入門', link: '/react/intro' },
+          { text: 'コンポーネント', link: '/react/component' },
+          { text: 'レンダリング', link: '/react/rendering' },
+          { text: 'Hooks', link: '/react/hooks' },
+          { text: 'Routing', link: '/react/routing' },
+          { text: '状態管理', link: '/react/state-management' },
+          { text: 'スタイリング', link: '/react/styling' },
+          { text: 'コンポーネントライブラリ', link: '/react/component-libraries' },
+          { text: 'APIコール', link: '/react/api-calls' },
         ],
         collapsed: true
       },
