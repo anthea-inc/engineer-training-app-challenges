@@ -122,8 +122,12 @@ export default defineConfig({
         items: [
           { text: 'React入門', link: '/react/intro' },
           { text: 'コンポーネントの基礎', link: '/react/component' },
-          { text: 'レンダリング', link: '/react/rendering' },
+          { text: '仮装DOM', link: '/react/virtual-dom' },
+          { text: 'リストとキー', link: '/react/lists-and-keys' },
+          { text: 'イベントハンドリング', link: '/react/events' },
           { text: 'Hooks', link: '/react/hooks' },
+          { text: 'Refs', link: '/react/refs' },
+          { text: 'ライフサイクル', link: '/react/lifecycle' },
           { text: 'Routing', link: '/react/routing' },
           { text: '状態管理', link: '/react/state-management' },
           { text: 'スタイリング', link: '/react/styling' },
