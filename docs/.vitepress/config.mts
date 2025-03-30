@@ -121,7 +121,7 @@ export default defineConfig({
         text: 'React',
         items: [
           { text: 'React入門', link: '/react/intro' },
-          { text: 'コンポーネント', link: '/react/component' },
+          { text: 'コンポーネントの基礎', link: '/react/component' },
           { text: 'レンダリング', link: '/react/rendering' },
           { text: 'Hooks', link: '/react/hooks' },
           { text: 'Routing', link: '/react/routing' },
