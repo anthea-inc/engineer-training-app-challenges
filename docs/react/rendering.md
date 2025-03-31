@@ -4,14 +4,21 @@
 
 ### 知識課題1
 
-- DOMとは
-- 仮想DOMとは
+MPAとは
+SPAとは
 
 ### 知識課題2
 
-リストとKey
+- CSRとは
+- SSRとは
+- SSGとは
+- ISGとは
 
-## 参考資料
+### 知識課題3
 
-- [レンダーとコミット](https://ja.react.dev/learn/render-and-commit)
-- [リストのレンダー](https://ja.react.dev/learn/rendering-lists)
+- RSCとは
+
+### 知識課題4
+
+それぞれ、Reactでは、どういったフレームワークで実現できるか
+それぞれ、どのようなケースで採用すべきか

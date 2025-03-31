@@ -122,7 +122,7 @@ export default defineConfig({
         items: [
           { text: 'React入門', link: '/react/intro' },
           { text: 'コンポーネントの基礎', link: '/react/component' },
-          { text: '仮装DOM', link: '/react/virtual-dom' },
+          { text: '仮装DOMの概念', link: '/react/virtual-dom' },
           { text: 'リストとキー', link: '/react/lists-and-keys' },
           { text: 'イベントハンドリング', link: '/react/events' },
           { text: 'Hooks', link: '/react/hooks' },
@@ -133,6 +133,7 @@ export default defineConfig({
           { text: 'スタイリング', link: '/react/styling' },
           { text: 'コンポーネントライブラリ', link: '/react/component-libraries' },
           { text: 'APIコール', link: '/react/api-calls' },
+          { text: 'レンダリング', link: '/react/rendering' },
         ],
         collapsed: true
       },
