@@ -123,7 +123,7 @@ export default defineConfig({
           { text: 'React入門', link: '/react/intro' },
           { text: 'コンポーネントの基礎', link: '/react/component' },
           { text: '仮装DOMの概念', link: '/react/virtual-dom' },
-          { text: 'リストとキー', link: '/react/lists-and-keys' },
+          { text: 'リストレンダリングの基本', link: '/react/lists-and-keys' },
           { text: 'イベントハンドリング', link: '/react/events' },
           { text: 'Hooks', link: '/react/hooks' },
           { text: 'Refs', link: '/react/refs' },
