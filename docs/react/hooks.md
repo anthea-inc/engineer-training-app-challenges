@@ -128,14 +128,15 @@ export default TitleUpdaterCounter;
 
 ::: details 解答例
 
-```jsx
-// 1. Context の作成 (例: src/contexts/ThemeContext.js)
+::: code-group
+
+``` jsx [src/contexts/ThemeContext.js]
 import React, { createContext } from 'react';
 
-// デフォルト値を 'light' として Context を作成・エクスポート
 export const ThemeContext = createContext('light');
+```
 
-// 2. Context を利用する子コンポーネント (例: src/components/ThemedDisplay.jsx)
+``` jsx [src/components/ThemedDisplay.jsx]
 import React, { useContext } from 'react';
 import { ThemeContext } from '../contexts/ThemeContext'; // 作成した Context をインポート
 
@@ -151,8 +152,9 @@ function ThemedDisplay() {
 }
 
 export default ThemedDisplay;
+```
 
-// 3. Provider の設定 (例: App.jsx)
+``` jsx [App.jsx]
 import React, { useState } from 'react';
 import { ThemeContext } from './contexts/ThemeContext';
 import ThemedDisplay from './components/ThemedDisplay';
@@ -182,159 +184,6 @@ export default App;
 :::
 
 ### 実践課題4
-
-`useMemo`フックを使って、計算コストの高い処理の結果をメモ化し、不要な再計算を防ぐ。
-
-1. 数値の状態（例: `inputNumber`）と、その数値を更新するための入力欄（`<input type="number">`）またはボタンを持つコンポーネントを作成してください。現在の数値も表示します。
-2. 意図的に時間のかかる計算処理を行う関数（例: 大きなループを実行して引数の値を加工する）を定義します。この関数が実行されたことがわかるように、コンソールログなどを仕込むと良いでしょう。
-3. `useMemo`フックを使用し、上記で定義した重い計算処理の結果をメモ化してください。この計算は、コンポーネントが持つ数値の状態（`inputNumber`）が変化したとき**のみ**実行されるようにします。
-4. コンポーネントの表示部分で、メモ化された計算結果を表示してください。
-5. ブラウザで数値を変更し、重い計算が実行される（コンソールログが表示される）ことを確認します。
-6. （確認用）コンポーネントに、上記の数値とは**無関係な**状態（例: 真偽値のトグル状態）を追加し、その状態を更新する操作を行います。この操作によってコンポーネントが再レンダリングされても、重い計算は再実行されず、メモ化された結果が使われていること（コンソールログが表示されないこと）を確認してください。
-
-::: warning 注意
-
-::: details 解答例
-
-```jsx
-// 例: src/components/HeavyCalculator.jsx
-import React, { useState, useMemo } from 'react';
-
-// 重い計算処理を行う関数 (コンポーネントの外に定義しても良い)
-const calculateHeavyValue = (num) => {
-  console.log(`重い計算を実行中... (入力値: ${num})`);
-  // 時間をかけるためのダミーループ (実際にはより意味のある計算)
-  let result = 0;
-  for (let i = 0; i < 100000000; i++) { // ループ回数は環境に合わせて調整
-    result += Math.sqrt(i); // 何か計算しているふり
-  }
-  result += num * 2; // 入力値を基にした計算
-  console.log('重い計算完了');
-  return result;
-};
-
-function HeavyCalculator() {
-  const [number, setNumber] = useState(1);
-  const [toggle, setToggle] = useState(false); // 無関係な状態
-
-  // useMemo を使って重い計算結果をメモ化
-  // number が変化したときだけ calculateHeavyValue が実行される
-  const heavyResult = useMemo(() => calculateHeavyValue(number), [number]);
-
-  const handleNumberChange = (event) => {
-    setNumber(Number(event.target.value));
-  };
-
-  const handleToggle = () => {
-    setToggle(!toggle);
-  };
-
-  console.log('HeavyCalculator レンダリング'); // レンダリング確認用
-
-  return (
-    <div>
-      <h2>重い計算のメモ化 (useMemo)</h2>
-      <label>
-        数値を入力:
-        <input type="number" value={number} onChange={handleNumberChange} />
-      </label>
-      <p>入力された数値: {number}</p>
-      <p>重い計算結果: {heavyResult}</p>
-
-      <hr />
-      <button onClick={handleToggle}>トグル切り替え (無関係な再レンダリング)</button>
-      <p>トグル状態: {toggle ? 'ON' : 'OFF'}</p>
-    </div>
-  );
-}
-
-export default HeavyCalculator;
-```
-
-:::
-
-### 実践課題5
-
-`useCallback`フックと`React.memo`を組み合わせて使用し、不要な子コンポーネントの再レンダリングを防ぐ。
-
-1. 子コンポーネント（例: `ClickButton`）を作成します。このコンポーネントは、propsとしてコールバック関数（例: `onClickHandler`）を受け取り、その関数を実行するボタンを表示します。
-2. `React.memo`を使用して、この子コンポーネントをメモ化してください。子コンポーネントがいつレンダリングされたかを確認するために、コンソールログなどを仕込むと良いでしょう。
-3. 親コンポーネント（例: `ParentComponent`）を作成します。このコンポーネントは、何らかの状態（例: `count`）を持ち、その状態を更新する機能（例: カウントアップボタン）を持ちます。
-4. 親コンポーネント内で、子コンポーネントに渡すためのコールバック関数を定義します。
-5. 親コンポーネントで子コンポーネントをレンダリングし、定義したコールバック関数をpropsとして渡します。
-6. **まず、`useCallback`を使わずに実装してください。** 親コンポーネントの状態を更新（例: カウントアップボタンをクリック）すると、親が再レンダリングされ、それに伴い子コンポーネントも**再レンダリングされてしまう**ことをコンソールログで確認してください（メモ化しているにも関わらず）。
-7. **次に、親コンポーネントで定義したコールバック関数を`useCallback`フックを使ってメモ化してください。** 依存配列を適切に設定します（このコールバックが親の状態やpropsに依存しない場合は空配列 `[]`）。
-8. 再度、親コンポーネントの状態を更新します。今度は、`useCallback`によってコールバック関数の参照が変わらないため、`React.memo`が効果を発揮し、子コンポーネントの**再レンダリングがスキップされる**ことをコンソールログで確認してください。
-
-::: warning 注意
-
-::: details 解答例
-
-```jsx
-// 1. メモ化された子コンポーネント (例: src/components/MemoizedButton.jsx)
-import React from 'react';
-
-const MemoizedButton = React.memo(({ onClick, children }) => {
-  console.log(`${children} ボタン レンダリング`);
-  return <button onClick={onClick}>{children}</button>;
-});
-
-export default MemoizedButton;
-
-// 2. 親コンポーネント (例: src/components/CallbackDemo.jsx)
-import React, { useState, useCallback } from 'react';
-import MemoizedButton from './MemoizedButton';
-
-function CallbackDemo() {
-  const [count, setCount] = useState(0);
-  const [otherState, setOtherState] = useState(false); // 子に関係ない状態
-
-  console.log('CallbackDemo (親) レンダリング');
-
-  // useCallback を使わない場合 (コメントアウトして比較)
-  // const handleButtonClick = () => {
-  //   console.log('子コンポーネントのボタンがクリックされました！');
-  //   // 必要であれば親の何かの処理を行う
-  // };
-
-  // useCallback を使って関数をメモ化
-  // この関数は外部の変数に依存していないため、依存配列は空
-  const handleButtonClick = useCallback(() => {
-    console.log('子コンポーネントのボタンがクリックされました！');
-    // ここで count を使う場合は依存配列に [count] を追加する必要がある
-  }, []); // 依存配列が空
-
-  const incrementCount = () => {
-    setCount(prevCount => prevCount + 1);
-  };
-
-  const toggleOtherState = () => {
-    setOtherState(prev => !prev);
-  }
-
-  return (
-    <div>
-      <h2>コールバック関数のメモ化 (useCallback)</h2>
-      <p>親のカウント: {count}</p>
-      <button onClick={incrementCount}>親のカウントを増やす</button>
-      <hr />
-      {/* メモ化した関数を子コンポーネントに渡す */}
-      <MemoizedButton onClick={handleButtonClick}>
-        メモ化されたボタン (子)
-      </MemoizedButton>
-      <hr />
-       <button onClick={toggleOtherState}>親の別状態を切り替え</button>
-       <p>親の別状態: {otherState ? 'ON' : 'OFF'}</p>
-    </div>
-  );
-}
-
-export default CallbackDemo;
-```
-
-:::
-
-### 実践課題6
 
 `useRef`フックを使って、特定のDOM要素に直接アクセスし、操作する（例: フォーカスを当てる）。
 
@@ -379,7 +228,7 @@ export default InputFocus;
 
 :::
 
-### 実践課題7
+### 実践課題5
 
 `useReducer`フックを使って、複数のアクションによって状態が変化するような、少し複雑な状態管理ロジックを実装する。
 
@@ -453,7 +302,7 @@ export default ReducerCounter;
 
 :::
 
-### 実践課題8
+### 実践課題6
 
 状態管理ロジックや副作用の処理をカスタムフックとして抽出し、複数のコンポーネントで再利用可能にする。
 
@@ -473,8 +322,9 @@ export default ReducerCounter;
 
 ::: details 解答例
 
-```jsx
-// 1. カスタムフックの作成 (例: src/hooks/useCounter.js)
+::: code-group
+
+``` jsx [src/hooks/useCounter.js]
 import { useState } from 'react';
 
 // カウンターロジックを提供するカスタムフック
@@ -491,8 +341,9 @@ function useCounter(initialValue = 0) {
 }
 
 export default useCounter;
+```
 
-// 2. カスタムフックを使用するコンポーネント A (例: src/components/CounterA.jsx)
+``` jsx [src/components/CounterA.jsx]
 import React from 'react';
 import useCounter from '../hooks/useCounter'; // 作成したカスタムフックをインポート
 
@@ -510,9 +361,9 @@ function CounterA() {
 }
 
 export default CounterA;
+```
 
-
-// 3. カスタムフックを使用するコンポーネント B (例: src/components/CounterB.jsx)
+``` jsx [src/components/CounterB.jsx]
 import React from 'react';
 import useCounter from '../hooks/useCounter'; // 同じカスタムフックをインポート
 
@@ -530,8 +381,9 @@ function CounterB() {
 }
 
 export default CounterB;
+```
 
-// 4. App.jsx で表示
+``` jsx [App.jsx]
 import React from 'react';
 import CounterA from './components/CounterA';
 import CounterB from './components/CounterB';
@@ -548,7 +400,6 @@ function App() {
 }
 
 export default App;
-
 ```
 
 :::
