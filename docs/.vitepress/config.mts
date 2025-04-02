@@ -127,7 +127,7 @@ export default defineConfig({
           { text: 'リストレンダリングの基本', link: '/react/lists-and-keys' },
           { text: 'イベント処理の基礎', link: '/react/events' },
           { text: 'Reactフックの基礎', link: '/react/hooks' },
-          { text: 'state', link: '/react/state' },
+          { text: 'Stateの理解と管理', link: '/react/state' },
           { text: 'effect', link: '/react/effect' },
           { text: 'ライフサイクル', link: '/react/lifecycle' },
           { text: 'Refs', link: '/react/ref' },
