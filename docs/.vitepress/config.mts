@@ -128,7 +128,7 @@ export default defineConfig({
           { text: 'イベント処理の基礎', link: '/react/events' },
           { text: 'Reactフックの基礎', link: '/react/hooks' },
           { text: 'Stateの理解と管理', link: '/react/state' },
-          { text: 'Refs', link: '/react/ref' },
+          { text: 'Refの理解と活用', link: '/react/ref' },
           { text: 'エフェクトの理解と活用', link: '/react/effect' },
           { text: 'Routing', link: '/react/routing' },
           { text: '状態管理', link: '/react/state-management' },
