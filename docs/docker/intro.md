@@ -84,16 +84,6 @@ docker container runのオプションについて、それぞれの使用目的
   - コンテナが正常に削除されたことを確認してください。
 - ローカル環境に存在するDockerイメージを確認し、ダウンロードしたUbuntuイメージを削除してください。
 
-## クイズ
-
-- クイズについては、以下のリンクからご確認ください。
-  - [クイズに関する詳細はこちら](https://www.notion.so/d6961bbf790b4fe489f731c0dc2f76f3?pvs=21)
-
-## 完了条件
-
-- 詳細な完了条件は、以下のリンクからご確認ください。
-  - [完了条件に関する詳細はこちら](https://www.notion.so/d0b96c5a71bc422d98c161014b825ae8?pvs=21)
-
 ## 参考資料
 
 - [実践 Docker - ソフトウェアエンジニアの「Docker よくわからない」を終わりにする本](https://zenn.dev/suzuki_hoge/books/2022-03-docker-practice-8ae36c33424b59)
