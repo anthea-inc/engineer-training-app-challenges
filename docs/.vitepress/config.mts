@@ -139,6 +139,7 @@ export default defineConfig({
           { text: 'error boundary', link: '/react/error-boundary' },
           { text: 'suspense', link: '/react/suspense' },
           { text: 'レンダリング', link: '/react/rendering' },
+          { text: 'ディレクトリ構成', link: '/react/project-structure' },
         ],
         collapsed: true
       },
