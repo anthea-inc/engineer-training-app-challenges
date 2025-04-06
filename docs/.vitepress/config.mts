@@ -135,7 +135,7 @@ export default defineConfig({
           { text: 'ルーティングの基礎', link: '/react/routing' },
           { text: '状態管理の基礎', link: '/react/state-management' },
           { text: 'API通信とデータ取得', link: '/react/api-calls' },
-          { text: 'forms', link: '/react/forms' },
+          { text: 'フォーム実装の基礎', link: '/react/forms' },
           { text: 'Error Boundaryの理解と活用', link: '/react/error-boundary' },
           { text: 'Suspenseの理解と活用', link: '/react/suspense' },
           { text: 'レンダリング戦略', link: '/react/rendering' },
