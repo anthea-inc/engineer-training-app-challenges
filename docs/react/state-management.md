@@ -1,4 +1,4 @@
-# 状態管理
+# 状態管理の基礎
 
 ## 知識課題
 
@@ -25,3 +25,12 @@
 - なぜこれらの状態を`Global State`とは区別する必要があるのか、それぞれの特性を踏まえて説明してください。
 
 ## 実践課題
+
+- 以下の`Zustand`公式チュートリアル（`Tic-Tac-Toe`）を最後まで実施し、動作するアプリケーションを完成させてください。
+  - [Tutorial: Tic-Tac-Toe](https://zustand.docs.pmnd.rs/guides/tutorial-tic-tac-toe)
+- 完成後、作成したコードを提出してください。
+
+## 参考資料
+
+- [Zustand](https://zustand-demo.pmnd.rs/)
+- [Jotai](https://jotai.org/)
