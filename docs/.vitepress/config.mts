@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "アプリケーションを作成しよう",
+  title: "株式会社Anthea エンジニア基礎研修",
   description: "株式会社Antheaが提供するエンジニア研修プログラム。",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config

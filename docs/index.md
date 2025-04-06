@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "エンジニア研修課題"
-  text: "Webアプリケーションを作成しよう！"
-  tagline: "Webアプリケーション開発の第一歩"
+  name: "株式会社Anthea エンジニア基礎研修"
+  text: "Webアプリケーション開発の全体像を学ぼう！"
+  tagline: "アイデアを形にするための第一歩を踏み出す"
   actions:
     - theme: brand
       text: 始め方ガイド
@@ -16,30 +16,30 @@ hero:
 
 features:
   - title: Git
-    details: バージョン管理を学び、コードの履歴を追跡・管理しよう
+    details: コードの変更履歴を管理し、チーム開発の基礎となるバージョン管理システムGitの使い方を学びます。
     link: /git/intro
   - title: HTML
-    details: HTMLを基礎から学び、ページ構造を作成しよう
+    details: Webページの骨組みを作るHTMLの基本を習得し、コンテンツを構造化する方法を学びます。
     link: /html/intro
   - title: CSS
-    details: CSSでデザインを整え、スタイリングを学ぼう
+    details: HTMLで作成した要素にスタイルを適用し、Webページの見た目を美しくデザインする方法を学びます。
     link: /css/intro
   - title: JavaScript
-    details: JavaScriptを使って動的な機能を追加しよう
+    details: Webページに動きやインタラクティブな機能を追加するJavaScriptの基礎を学び、動的な表現力を身につけます。
     link: /java-script/intro
   - title: React
-    details: コンポーネント作成の基本を学び、再利用可能なUIパーツを組み合わせよう
+    details: モダンなUI開発で人気のReactを学び、コンポーネントで再利用性の高いUIを効率的に構築する手法を習得します。
     link: /react/intro
   - title: Docker
-    details: コンテナを利用して、開発環境やアプリの実行環境を手軽に構築しよう
+    details: 開発環境の構築をDockerで効率化し、どこでも同じ環境でアプリケーションを実行できるコンテナ技術を学びます。
     link: /docker/intro
   - title: Database
-    details: SQLの基本操作でデータを保存・検索し、簡単なデータベースアプリを体験しよう
+    details: アプリケーションデータを永続化するためのSQLの基本操作を学び、データベースを使ったデータの管理方法を体験します。
     link: /database/intro
   - title: API
-    details: 外部サービスと連携し、データの取得や送信の仕組みを理解しよう
+    details: 外部サービスとデータをやり取りするAPIの仕組みを理解し、他のシステムと連携する方法を学びます。
     link: /api/intro
   - title: JWT
-    details: 認証トークンを活用し、安全なユーザー認証と情報交換の方法を学ぼう
+    details: 安全なユーザー認証を実現するJWT（JSON Web Token）の仕組みを学び、セキュアな情報交換の方法を習得します。
     link: /jwt/intro
 ---
