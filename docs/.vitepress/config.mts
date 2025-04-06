@@ -130,7 +130,7 @@ export default defineConfig({
           { text: 'Stateの理解と管理', link: '/react/state' },
           { text: 'Refの理解と活用', link: '/react/ref' },
           { text: 'Effectの理解と活用', link: '/react/effect' },
-          { text: 'スタイリング', link: '/react/styling' },
+          { text: 'スタイリング手法の理解と実践', link: '/react/styling' },
           { text: 'コンポーネントライブラリ', link: '/react/component-libraries' },
           { text: 'Routing', link: '/react/routing' },
           { text: '状態管理', link: '/react/state-management' },
