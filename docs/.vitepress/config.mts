@@ -132,7 +132,7 @@ export default defineConfig({
           { text: 'Effectの理解と活用', link: '/react/effect' },
           { text: 'スタイリング手法の理解と実践', link: '/react/styling' },
           { text: 'コンポーネントライブラリ', link: '/react/component-libraries' },
-          { text: 'Routing', link: '/react/routing' },
+          { text: 'ルーティングの基礎', link: '/react/routing' },
           { text: '状態管理', link: '/react/state-management' },
           { text: 'APIコール', link: '/react/api-calls' },
           { text: 'forms', link: '/react/forms' },

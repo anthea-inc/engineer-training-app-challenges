@@ -1,9 +1,27 @@
-# ルーティング
+# ルーティングの基礎
 
 ## 知識課題
 
-ルーティングとは何か
+### 知識課題1
+
+- `MPA (Multi-Page Application)` の概念とその基本的な動作について説明してください。
+- `SPA (Single-Page Application)` の概念とその基本的な動作について説明してください。
+
+### 知識課題2
+
+- Reactのような`SPA`において、`クライアントサイドルーティング`を実現するライブラリ（例: `React Router`）が必要となる理由について説明してください。
+- 従来のWebサイト（`サーバーサイドルーティング`）と比較し、`SPA` + `クライアントサイドルーティング`の構成がもたらすメリットとデメリットを、技術的な観点とユーザー体験の観点から考察してください。
+- ブラウザが標準で提供するページ遷移（例: `<a>` タグによる画面遷移）と、`React Router`を用いたページ遷移には、具体的にどのような違いがありますか？
+
+## 実践課題
+
+- 以下の`React Router`公式チュートリアル（`Address Book`）を最後まで実施し、動作するアプリケーションを完成させてください。
+  - [Address Book](https://reactrouter.com/tutorials/address-book)
+- 完成後、作成したコードを提出してください。
+- **補足:** チュートリアルを進める中で`SSR（サーバーサイドレンダリング）`など、現時点で理解が難しい概念に触れるかもしれませんが、今回の課題では深く理解する必要はありません。まずはクライアントサイドルーティングの基本的な仕組みと`React Router`の使い方を理解することに焦点を当ててください。
+
+[Address Book](https://reactrouter.com/tutorials/address-book)
 
 ## 参考資料
 
-- [React Router Official Documentation](https://reactrouter.com/)
+- [React Router](https://reactrouter.com/)
