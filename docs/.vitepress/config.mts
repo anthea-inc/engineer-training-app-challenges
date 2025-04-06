@@ -137,9 +137,8 @@ export default defineConfig({
           { text: 'API通信とデータ取得', link: '/react/api-calls' },
           { text: 'forms', link: '/react/forms' },
           { text: 'error boundary', link: '/react/error-boundary' },
-          { text: 'suspense', link: '/react/suspense' },
+          { text: 'Suspense入門', link: '/react/suspense' },
           { text: 'レンダリング戦略', link: '/react/rendering' },
-          { text: 'ディレクトリ構成', link: '/react/project-structure' },
         ],
         collapsed: true
       },

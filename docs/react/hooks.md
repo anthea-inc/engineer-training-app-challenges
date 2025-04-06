@@ -167,14 +167,14 @@ function App() {
   };
 
   return (
-    // ThemeContext.Provider で ThemedDisplay を囲み、value を渡す
-    <ThemeContext.Provider value={currentTheme}>
+    // ThemeContext で ThemedDisplay を囲み、value を渡す
+    <ThemeContext value={currentTheme}>
       <div>
         <h1>テーマ切り替えデモ</h1>
         <button onClick={toggleTheme}>テーマ切り替え</button>
         <ThemedDisplay />
       </div>
-    </ThemeContext.Provider>
+    </ThemeContext>
   );
 }
 
