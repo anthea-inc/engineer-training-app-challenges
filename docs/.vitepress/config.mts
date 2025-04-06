@@ -134,7 +134,7 @@ export default defineConfig({
           { text: 'コンポーネントライブラリ', link: '/react/component-libraries' },
           { text: 'ルーティングの基礎', link: '/react/routing' },
           { text: '状態管理の基礎', link: '/react/state-management' },
-          { text: 'APIコール', link: '/react/api-calls' },
+          { text: 'API通信とデータ取得', link: '/react/api-calls' },
           { text: 'forms', link: '/react/forms' },
           { text: 'error boundary', link: '/react/error-boundary' },
           { text: 'suspense', link: '/react/suspense' },
