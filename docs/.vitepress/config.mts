@@ -136,9 +136,9 @@ export default defineConfig({
           { text: '状態管理', link: '/react/state-management' },
           { text: 'APIコール', link: '/react/api-calls' },
           { text: 'forms', link: '/react/forms' },
-          { text: 'レンダリング', link: '/react/rendering' },
           { text: 'error boundary', link: '/react/error-boundary' },
           { text: 'suspense', link: '/react/suspense' },
+          { text: 'レンダリング', link: '/react/rendering' },
         ],
         collapsed: true
       },
