@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "株式会社Anthea エンジニア基礎研修",
+  title: "株式会社Anthea エンジニア研修",
   description: "株式会社Antheaが提供するエンジニア研修プログラム。",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -16,7 +16,9 @@ export default defineConfig({
         text: 'ガイドライン',
         items: [
           { text: 'はじめに', link: '/guide/getting-started' },
+          { text: '目的', link: '/guide/goals' },
           { text: 'レビュー', link: '/guide/review' },
+          { text: '日報作成ガイド', link: '/guide/daily-report' },
         ],
         collapsed: true
       },
@@ -152,7 +154,8 @@ export default defineConfig({
       {
         text: 'Database',
         items: [
-          { text: 'Database', link: '/database/intro' },
+          { text: 'PostgreSQLのセットアップ', link: '/database/setup' },
+          { text: 'データベース入門', link: '/database/intro' },
         ],
         collapsed: true
       },

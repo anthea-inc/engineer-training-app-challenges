@@ -1,4 +1,10 @@
 {
+  "name": "engineer-training-app-challenges",
+  "private": true,
+  "version": "0.1.0",
+  "description": "",
+  "license": "UNLICENSED",
+  "author": "",
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",

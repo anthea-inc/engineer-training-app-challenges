@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "株式会社Anthea エンジニア基礎研修"
-  text: "Webアプリケーション開発の全体像を学ぼう！"
-  tagline: "アイデアを形にするための第一歩を踏み出す"
+  name: "エンジニア研修"
+  text: "Webアプリケーション開発を学ぼう！"
+  tagline: "株式会社Anthea"
   actions:
     - theme: brand
       text: 始め方ガイド
@@ -39,7 +39,7 @@ features:
   - title: API
     details: 外部サービスとデータをやり取りするAPIの仕組みを理解し、他のシステムと連携する方法を学びます。
     link: /api/intro
-  - title: JWT
-    details: 安全なユーザー認証を実現するJWT（JSON Web Token）の仕組みを学び、セキュアな情報交換の方法を習得します。
-    link: /jwt/intro
+  - title: Internet
+    details: ネットワークの基礎を学びます。
+    link: /internet/intro
 ---
