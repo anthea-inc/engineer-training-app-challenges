@@ -156,6 +156,7 @@ export default defineConfig({
         items: [
           { text: 'PostgreSQLのセットアップ', link: '/database/setup' },
           { text: 'データベース入門', link: '/database/intro' },
+          { text: 'SELECT文の基本', link: '/database/select' },
         ],
         collapsed: true
       },
