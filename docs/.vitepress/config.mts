@@ -16,9 +16,9 @@ export default defineConfig({
         text: 'ガイドライン',
         items: [
           { text: 'はじめに', link: '/guide/getting-started' },
-          { text: '目的', link: '/guide/goals' },
-          { text: 'レビュー', link: '/guide/review' },
-          { text: '日報作成ガイド', link: '/guide/daily-report' },
+          // { text: '目的', link: '/guide/goals' },
+          // { text: 'レビュー', link: '/guide/review' },
+          // { text: '日報作成ガイド', link: '/guide/daily-report' },
         ],
         collapsed: true
       },
